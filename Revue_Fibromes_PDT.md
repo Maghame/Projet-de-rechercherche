@@ -73,21 +73,6 @@ Bien que prometteuse, la thérapie photodynamique actuellement ne dispose pas de
 **Problématique :**  
 *Comment concevoir, modéliser et évaluer un photosensibilisateur de 3ᵉ génération capable de cibler efficacement les fibromes utérins tout en préservant le myomètre sain ?
 
-
-## 4. Hypothèses de recherche
-
-### Hypothèse principale
-Un photosensibilisateur de 3ᵉ génération, optimisé par modélisation moléculaire et adapté aux propriétés optiques du tissu utérin, permettra une destruction sélective et efficace des cellules myomateuses via la thérapie photodynamique.
-
-### Hypothèses secondaires
-1. Les fibromes présentent une signature moléculaire exploitable pour le ciblage sélectif d’un PS.  
-2. L’optimisation des propriétés photophysiques du PS (absorption proche infrarouge, solubilité, stabilité) améliore la pénétration tissulaire.  
-3. La modélisation in silico permet de prédire l'affinité, la stabilité et la toxicité potentielle du PS.  
-4. La PDT pourrait représenter une alternative accessible et moins invasive pour les systèmes de santé, notamment en Afrique.
-
----
-
-
 ## 3. Justification du Projet et Objectifs
 
 ### 3.1. Justification : La Nécessité de la Conception Moléculaire *In Silico*
@@ -96,20 +81,24 @@ Malgré le potentiel de la TPD, son application aux fibromes intramuraux est lim
 
 La **modélisation moléculaire** et la **chimie computationnelle** constituent des outils fondamentaux pour le développement rationnel d'agents photoactifs de troisième génération \cite{Correia2021}. Ces outils permettent de **prédire l'efficacité photodynamique** (par l'estimation du SOC et du rendement en oxygène singulet) et d'**optimiser l'absorption dans la fenêtre NIR** avant la synthèse expérimentale.
 
-L'objectif de ce projet est d'exploiter les avancées théoriques (telles que l'utilisation de méthodes comme l'**ADC(2)** pour les énergies d'excitation, le calcul du **SOC** par TD-DFT pour les tendances \cite{accuracy-of-spin-component-scaled-adc(2)-excitation-energies-and-potential-energy-surfaces.pdf}) pour concevoir des sondes sélectives qui ciblent spécifiquement les cellules musculaires lisses du fibrome, garantissant ainsi un traitement qui **préserve l'intégrité fonctionnelle du myomètre sain**.
 
-### 3.2. Objectif du Projet
-
-L'objectif principal du projet est de mener une **mission de conception *in silico*** d'agents photoactifs. Cette démarche vise à :
-1.  **Concevoir et modéliser moléculairement** de nouvelles sondes photoactives ciblant les fibromes.
-2.  **Augmenter le rendement quantique en oxygène singulet** et la **sélectivité** du photosensibilisateur pour les cellules musculaires lisses constituant le fibrome, afin d'assurer un traitement **conservateur, efficace et récurrentiel** \cite{PDT_Fibrome.txt}.
-
----
-
-
-
-## 5. Objectifs
+## 4. Objectifs
 
 ### Objectif général
-Concevoir, modéliser et évaluer un photosensibilisateur de 3ᵉ génération adapté à la thérapie photodynamique des fibromes utérins afin de proposer une stratégie thérapeutique innovante et applicable en santé publique.
+L'objectif de ce projet est d'exploiter les avancées théoriques (telles que l'utilisation de méthodes comme l'**ADC(2)** pour les énergies d'excitation, le calcul du **SOC** par TD-DFT pour les tendances \cite{accuracy-of-spin-component-scaled-adc(2)-excitation-energies-and-potential-energy-surfaces.pdf}) pour concevoir, modéliser et évaluer des photosensibilisateurs de 3ᵉ génération adapté à la thérapie photodynamique des fibromes utérins afin de proposer une stratégie thérapeutique innovante et applicable en santé publique.
+
+
+## 5. Hypothèses de recherche
+
+### Hypothèse principale
+Un photosensibilisateur de 3ᵉ génération, optimisé par modélisation moléculaire et adapté aux propriétés optiques du tissu utérin, permettra une destruction sélective et efficace des cellules myomateuses via la thérapie photodynamique.
+
+### Hypothèses secondaires
+1. Les fibromes présentent une signature moléculaire exploitable pour le ciblage sélectif d’un PS.  
+2. L’optimisation des propriétés photophysiques du PS (absorption proche infrarouge, solubilité, stabilité) améliore la pénétration tissulaire.  
+3. La PDT pourrait représenter une alternative accessible et moins invasive pour les systèmes de santé, notamment en Afrique.
+
+
+
+
 
