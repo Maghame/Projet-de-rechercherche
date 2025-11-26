@@ -1,25 +1,23 @@
 # La thérapie photodynamique appliquée aux fibromes utérins
 
 Ce projet de recherche porte sur l' optimisation des fluorophores organiques pour une thérapie photodynamique appliquée aux fibromes uterins (des tumeurs qui se développent à partir des cellules musculaires lisses de l'utérus). L'objectif est de concevoir, modéliser et benchmarker des sondes photoactives capables d'une double action (imagerie et traitement) via des approches computationnelles avancées. 
+***
 
 
+## 1. Contexte generale et Problématique : Les Fibromes Utérins
 
-# Introduction 
-
-## 1. Contexte Clinique et Problématique : Les Fibromes Utérins
-
-### 1.1. Définition, Prévalence et Impact des Fibromes Utérins
+### 1.1. Définition
 
 Les **fibromes utérins** (léiomyomes ou myomes) sont la **tumeur gynécologique bénigne la plus fréquente** chez la femme \cite{Krishnan2024}. Ces tumeurs, formées par la prolifération de cellules musculaires lisses de l'utérus, sont fortement influencées par les **hormones stéroïdes ovariennes** (œstrogènes et progestérone) \cite{fibr.pdf}.
 
-**Prévalence et Spécificités Régionales :**
+### 1.2. Prévalence et Spécificités Régionales
 La prévalence est extrêmement élevée : les myomes se retrouvent chez **20 % à 50 %** des femmes en âge de procréer \cite{Krishnan2024}. Des variations significatives existent selon l'ethnicité, le risque à vie dépassant **80 % chez les femmes noires** contre $70 \%$ chez les femmes blanches \cite{Krishnan2024}.
 
 En **Afrique subsaharienne**, les fibromes représentent un problème de santé publique majeur \cite{Hortence2021}.
 *   Au Cameroun, à l'Hôpital Central de Yaoundé, les fibromes représentaient une fréquence de **14 % des cas d'hospitalisation gynécologique** entre 2013 et 2018 \cite{Hortence2021}. Ils touchent majoritairement les femmes jeunes, avec un âge médian de 37,47 ans \cite{Hortence2021}.
 *   Au Mali (Bamako), l'âge moyen des patientes est de 37 ans \cite{fibr.pdf}. L'incidence élevée dans ce contexte s'explique par la forte fréquence des **fibromes multiples** (86,8 % des cas au Cameroun) \cite{Hortence2021}.
 
-**Symptomatologie et Conséquences :**
+### 1.3. Symptomatologie et Conséquences
 Bien que près de la moitié des femmes soient asymptomatiques \cite{Krishnan2024}, les myomes sont une cause importante de morbidité \cite{fibr.pdf}.
 *   Le symptôme le plus fréquent est l'**hémorragie génitale** (ménorragies), observée dans 61 % des cas au Cameroun \cite{Hortence2021}, pouvant entraîner une **anémie sévère** dans **72,4 %** des cas \cite{Hortence2021}.
 *   Les fibromes sont également une **cause majeure d'infertilité** \cite{Krishnan2024, fibr.pdf}, en particulier les types sous-muqueux qui compromettent la cavité utérine \cite{Frequency and Pattern of Intrauterine Hysteroscopic.pdf}. L'infertilité était le motif de consultation dans 75,8 % des cas étudiés au Mali \cite{fibr.pdf}.
@@ -37,22 +35,26 @@ Les fibromes utérins sont la **première cause d'hystérectomie** pour lésions
 
 Face à ces limites qui compromettent soit la fonction, soit la sécurité, le développement de **traitements conservateurs minimaux et hautement sélectifs** est impératif.
 
-## 2. Contexte Scientifique et Technologique : La TPD comme Stratégie Théranostique
 
-### 2.1. Introduction et Mécanisme de la Thérapie Photodynamique (TPD)
+## 2. Contexte scientifique et technologique : La Thérapie Photodynamique (PDT) comme Stratégie Théranostique
 
-La **Thérapie Photodynamique (TPD)** est une modalité thérapeutique **minimale invasive** reconnue pour son potentiel dans le traitement des maladies oncologiques et non-oncologiques \cite{Correia2021, CorreiaBarros2022}.
+### 2.1. Introduction et Mécanisme de la Thérapie Photodynamique (PDT)
+
+La **Thérapie Photodynamique (TPD)** est une modalité thérapeutique **minimale invasive** reconnue pour son potentiel dans le traitement des maladies oncologiques et non-oncologiques \cite{Correia2021, CorreiaBarros2022}. Elle constitue une alternative innovante.
 
 Le mécanisme est basé sur une interaction de trois éléments non toxiques :
-1.  Un **photosensibilisateur (PS)**.
+1.  Un **photosensibilisateur (PS)** activé par une source lumineuse pour produire des espèces réactives de l’oxygène (ROS) capables d'induire la mort cellulaire.
 2.  L'**oxygène moléculaire** ($\text{O}_2$).
 3.  L'**illumination** par une lumière de longueur d'onde spécifique.
+ 
 
-L'activation du PS par la lumière mène à la formation d'**espèces réactives de l'oxygène (ROS)**, principalement l'**oxygène singulet** ($\text{O}_2^1$), qui causent des dommages oxydatifs et la **destruction sélective** des cellules cibles \cite{Correia2021, CorreiaBarros2022}. Cette spécificité est fondamentale, car la TPD est capable d'induire une destruction tissulaire minimale, préservant ainsi l'anatomie et la fonction des organes \cite{CorreiaBarros2022}.
+L'activation du PS par la lumière mène à la formation d'**espèces réactives de l'oxygène (ROS)**, principalement l'**oxygène singulet** ($\text{O}_2^1$), qui causent des dommages oxydatifs et la **destruction sélective** des cellules cibles \cite{Correia2021, CorreiaBarros2022}. Cette spécificité est fondamentale, car la PDT est capable d'induire une destruction tissulaire minimale, préservant ainsi l'anatomie et la fonction des organes \cite{CorreiaBarros2022}. 
 
-### 2.2. Preuves de Concept TPD dans les Pathologies Utérines
 
-L'accessibilité endoscopique à l'utérus place la TPD au premier plan pour le traitement des lésions endométriales \cite{CorreiaBarros2022}.
+
+### 2.2. Preuves de Concept PDT dans les Pathologies Utérines
+
+L'accessibilité endoscopique à l'utérus place la PDT au premier plan pour le traitement des lésions endométriales \cite{CorreiaBarros2022}.
 
 *   **Préservation de la Fertilité dans le Cancer Endométrial** : La TPD a été évaluée comme une stratégie conservatrice pour les jeunes patientes atteintes de cancer de l'endomètre de stade précoce \cite{Choi2013, CorreiaBarros2022}. Une étude de suivi à long terme a montré que l'application de TPD après injection intraveineuse d'un photosensibilisateur, suivie d'une illumination au laser rouge (630 nm), a permis une **préservation de la fertilité** avec des taux de réponse complète pathologique \cite{Choi2013}.
 *   **Adénomyose et Endométriose** : Le traitement de l'**adénomyose** est difficile, car les approches chirurgicales conservatrices (adénomyomectomie) présentent un **risque élevé de rupture utérine** pendant la grossesse \cite{CorreiaBarros2022a}. Cependant, la TPD utilisant le précurseur **5-Aminolévulinique (5-ALA)** est prometteuse car les cellules d'adénomyose présentent une susceptibilité et une absorption du 5-ALA supérieures au tissu environnant \cite{CorreiaBarros2022a}. Le 5-ALA est également utilisé pour l'**ablation endométriale** et le traitement de l'**endométriose** \cite{CorreiaBarros2022}.
@@ -61,12 +63,23 @@ Le potentiel pour les **fibromes sous-muqueux** est souligné par le fait que le
 
 ### 2.3. Avancées Technologiques et Conception de Sondes Photoactives
 
-Pour que la TPD soit efficace contre les fibromes, qui sont des tumeurs myométriales potentiellement profondes, il est crucial d'utiliser des photosensibilisateurs (PS) capables d'être activés par des **longueurs d'onde plus longues** \cite{Correia2021}.
+Pour que la PDT soit efficace contre les fibromes, qui sont des tumeurs myométriales potentiellement profondes, il est crucial d'utiliser des photosensibilisateurs (PS) capables d'être activés par des **longueurs d'onde plus longues** \cite{Correia2021}.
 
 *   **PS de Nouvelle Génération et Pénétration Tissulaire** : La recherche se concentre sur des agents qui absorbent dans la **fenêtre thérapeutique du proche infrarouge (NIR-I, 600–900 nm)** pour maximiser la pénétration de la lumière \cite{Correia2021}.
     *   Les **Chlorines à cycle fusionné** (*Ring-fused chlorins*) sont étudiées précisément pour leur **forte absorption dans la région spectrale 600–800 nm** et leur phototoxicité élevée \cite{Correia2021}.
 *   **Théranostique et Sélectivité** : L'approche théranostique (diagnostic + thérapie) est clé pour **augmenter la sélectivité aux tumeurs** \cite{Correia2021}. Les **dérivés de Platine(II) des Chlorines** sont un exemple de ces agents, combinant l'**imagerie par luminescence** et la TPD \cite{Correia2021}.
 *   **Mécanismes Quantiques (SOC)** : L'efficacité de la TPD est liée au **Couplage Spin-Orbite (SOC)** du PS, qui contrôle la vitesse de passage de l'état singulet (S1, excité par la lumière) à l'état triplet (T1, producteur de ROS) \cite{Correia2021}. L'ajout d'**atomes lourds** (comme l'iode ou le brome) est une stratégie courante pour augmenter le SOC.
+
+*
+
+## 3. Problématique
+Les fibromes utérins représentent un problème majeur de santé publique et les traitements actuels restent limités.  
+Bien que prometteuse, la thérapie photodynamique actuellement ne dispose pas de photosensibilisateur spécifiquement optimisé pour cibler les cellules de fibrome, d’où la nécessité d’une conception de **photosensibilisateurs de 3ᵉ génération**.
+
+**Problématique :**  
+*Comment concevoir, modéliser et évaluer un photosensibilisateur de 3ᵉ génération capable de cibler efficacement les fibromes utérins tout en préservant le myomètre sain ?
+
+*
 
 ## 3. Justification du Projet et Objectifs
 
@@ -87,3 +100,32 @@ L'objectif principal du projet est de mener une **mission de conception *in sili
 ***
 
 
+
+
+
+
+
+
+
+---
+
+## 4. Hypothèses de recherche
+
+### Hypothèse principale
+Un photosensibilisateur de 3ᵉ génération, optimisé par modélisation moléculaire et adapté aux propriétés optiques du tissu utérin, permettra une destruction sélective et efficace des cellules myomateuses via la thérapie photodynamique.
+
+### Hypothèses secondaires
+1. Les fibromes présentent une signature moléculaire exploitable pour le ciblage sélectif d’un PS.  
+2. L’optimisation des propriétés photophysiques du PS (absorption proche infrarouge, solubilité, stabilité) améliore la pénétration tissulaire.  
+3. L’association PS-cible augmente la sélectivité et réduit les dommages sur le tissu sain.  
+4. La modélisation in silico permet de prédire l'affinité, la stabilité et la toxicité potentielle du PS.  
+5. La PDT pourrait représenter une alternative accessible et moins invasive pour les systèmes de santé, notamment en Afrique.
+
+---
+
+## 5. Objectifs
+
+### Objectif général
+Concevoir, modéliser et évaluer un photosensibilisateur de 3ᵉ génération adapté à la thérapie photodynamique des fibromes utérins afin de proposer une stratégie thérapeutique innovante et applicable en santé publique.
+
+### Objectifs spécifiques
