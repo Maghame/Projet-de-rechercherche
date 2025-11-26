@@ -79,7 +79,7 @@ Bien que prometteuse, la thérapie photodynamique actuellement ne dispose pas de
 **Problématique :**  
 *Comment concevoir, modéliser et évaluer un photosensibilisateur de 3ᵉ génération capable de cibler efficacement les fibromes utérins tout en préservant le myomètre sain ?
 
-*
+**
 
 ## 3. Justification du Projet et Objectifs
 
@@ -97,16 +97,6 @@ L'objectif principal du projet est de mener une **mission de conception *in sili
 1.  **Concevoir et modéliser moléculairement** de nouvelles sondes photoactives ciblant les fibromes.
 2.  **Augmenter le rendement quantique en oxygène singulet** et la **sélectivité** du photosensibilisateur pour les cellules musculaires lisses constituant le fibrome, afin d'assurer un traitement **conservateur, efficace et récurrentiel** \cite{PDT_Fibrome.txt}.
 
-***
-
-
-
-
-
-
-
-
-
 ---
 
 ## 4. Hypothèses de recherche
@@ -117,9 +107,8 @@ Un photosensibilisateur de 3ᵉ génération, optimisé par modélisation moléc
 ### Hypothèses secondaires
 1. Les fibromes présentent une signature moléculaire exploitable pour le ciblage sélectif d’un PS.  
 2. L’optimisation des propriétés photophysiques du PS (absorption proche infrarouge, solubilité, stabilité) améliore la pénétration tissulaire.  
-3. L’association PS-cible augmente la sélectivité et réduit les dommages sur le tissu sain.  
-4. La modélisation in silico permet de prédire l'affinité, la stabilité et la toxicité potentielle du PS.  
-5. La PDT pourrait représenter une alternative accessible et moins invasive pour les systèmes de santé, notamment en Afrique.
+3. La modélisation in silico permet de prédire l'affinité, la stabilité et la toxicité potentielle du PS.  
+4. La PDT pourrait représenter une alternative accessible et moins invasive pour les systèmes de santé, notamment en Afrique.
 
 ---
 
@@ -128,4 +117,3 @@ Un photosensibilisateur de 3ᵉ génération, optimisé par modélisation moléc
 ### Objectif général
 Concevoir, modéliser et évaluer un photosensibilisateur de 3ᵉ génération adapté à la thérapie photodynamique des fibromes utérins afin de proposer une stratégie thérapeutique innovante et applicable en santé publique.
 
-### Objectifs spécifiques
