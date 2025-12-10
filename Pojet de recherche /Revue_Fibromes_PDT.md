@@ -7,7 +7,7 @@ Ce projet de recherche porte sur l' optimisation des fluorophores organiques pou
 
 ### 1.1. Définition
 
-Les **fibromes utérins** (léiomyomes ou myomes) sont la **tumeur gynécologique bénigne la plus fréquente** chez la femme . Ces tumeurs, formées par la prolifération de cellules musculaires lisses de l'utérus, sont fortement influencées par les **hormones stéroïdes ovariennes** (œstrogènes et progestérone).
+Les **fibromes utérins** (léiomyomes ou myomes) sont la **tumeur gynécologique bénigne la plus fréquente** chez la femme .Ces néoplasmes bénins sont fortement dépendants des œstrogènes, ce qui explique leur rareté avant la puberté et leur régression habituelle après la ménopause.
 Bien que leur étiologie reste encore mal comprise, il est admis qu’une élévation des taux d’œstrogènes et éventuellement de la progestérone favorise leur croissance.
 
 ### 1.2. Prévalence et spécificités régionales
