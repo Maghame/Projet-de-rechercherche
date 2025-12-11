@@ -56,9 +56,8 @@ Le mécanisme est basé sur une interaction de trois éléments non toxiques :
 
 
 
-##### **Problématique**
 
-## 3. Problématique
+##  Problématique
 
 Les fibromes utérins constituent un enjeu majeur de santé publique, et les options thérapeutiques actuellement disponibles demeurent limitées, en particulier pour les patientes souhaitant préserver leur fertilité.
 La PDT, bien qu’elle ait montré un fort potentiel dans le traitement de cancer en gynécologie, ne dispose encore d’aucun photosensibilisateur spécifiquement conçu pour cibler les cellules de fibrome, ce qui limite son application clinique.
