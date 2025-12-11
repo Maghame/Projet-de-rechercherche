@@ -3,6 +3,7 @@
 
 Ce projet de recherche porte sur l' optimisation des fluorophores organiques pour une thérapie photodynamique appliquée aux fibromes uterins (des tumeurs qui se développent à partir des cellules musculaires lisses de l'utérus), affection touchant 70-80% des femmes en âge de procréer. L'objectif est de concevoir, modéliser et benchmarker des sondes photoactives pour la théranothérapie (imagerie et traitement) des fibromes utérins via des approches computationnelles avancées. 
 
+## Interrogation 1 : Les fibromes utérins, un défi thérapeutique unique nécessitant une approche moléculaire ?
 ## 1. Contexte général 
 
 ### 1.1. Définition
@@ -17,11 +18,14 @@ En **Afrique subsaharienne**, les fibromes représentent un problème de santé 
 *   Au Cameroun, à l'Hôpital Central de Yaoundé, les fibromes représentaient une fréquence de **14 % des cas d'hospitalisation gynécologique** entre 2013 et 2018. Ils touchent majoritairement les femmes jeunes, avec un âge médian de 37,47 ans .
 *   Au Mali (Bamako), l'âge moyen des patientes est de 37 ans. L'incidence élevée dans ce contexte s'explique par la forte fréquence des **fibromes multiples** (86,8 % des cas au Cameroun).
 
-### 1.3. Symptomatologie et conséquences
-Bien que près de la moitié des femmes soient asymptomatiques, les myomes sont une cause importante de morbidité.
-*   Le symptôme le plus fréquent est l'**hémorragie génitale** (ménorragies), observée dans 61 % des cas au Cameroun , pouvant entraîner une **anémie sévère** dans **72,4 %** des cas.
-*   Les fibromes sont également une **cause majeure d'infertilité** , en particulier les types sous-muqueux qui compromettent la cavité utérine . L'infertilité était le motif de consultation dans 75,8 % des cas étudiés au Mali.
-*   La présence de pathologies associées, telles que l'**adénomyose** ou le **cancer du col utérin** (retrouvées dans 53 % des cas étudiés à Abidjan), rend l'utilisation de l'**IRM multimodale** indispensable pour une exploration diagnostique et pré-thérapeutique complète .
+Le choix des fibromes utérins comme cible thérapeutique est stratégique et urgent pour plusieurs raisons :
+
+A. Un problème de santé publique mondiale
+
+Prévalence : 70-80% des femmes développent des fibromes durant leur vie
+Impact économique : >20 milliards USD/an (traitements, absentéisme)
+Qualité de vie : Saignements abondants, douleurs pelviennes, infertilité, complications obstétricales
+Disparités ethniques : Incidence 2-3× plus élevée chez les femmes afro-descendantes
 
 ### 1.4. Limites des thérapies standard et impératif de conservation de la fertilité
 
