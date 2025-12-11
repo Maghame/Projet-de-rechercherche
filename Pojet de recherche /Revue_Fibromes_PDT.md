@@ -1,7 +1,7 @@
 # La thérapie photodynamique appliquée aux fibromes utérins
 
 
-Ce projet de recherche porte sur l' optimisation des fluorophores organiques pour une thérapie photodynamique appliquée aux fibromes uterins (des tumeurs qui se développent à partir des cellules musculaires lisses de l'utérus). L'objectif est de concevoir, modéliser et benchmarker des sondes photoactives pour la théranothérapie (imagerie et traitement) des fibromes utérins via des approches computationnelles avancées. 
+Ce projet de recherche porte sur l' optimisation des fluorophores organiques pour une thérapie photodynamique appliquée aux fibromes uterins (des tumeurs qui se développent à partir des cellules musculaires lisses de l'utérus), affection touchant 70-80% des femmes en âge de procréer. L'objectif est de concevoir, modéliser et benchmarker des sondes photoactives pour la théranothérapie (imagerie et traitement) des fibromes utérins via des approches computationnelles avancées. 
 
 ## 1. Contexte général 
 
